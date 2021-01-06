@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'fontsource-roboto';
 import registerServiceWorker from './registerServiceWorker';
-import Home from './screens/home/Home'
+import Home from './screens/home/Home';
 
 ReactDOM.render(
   <Home />,
